@@ -22,9 +22,13 @@
 		B989A0521A9078AF00E2EE96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B989A01C1A8F974A00E2EE96 /* Images.xcassets */; };
 		B989A0581A90828300E2EE96 /* InfoPlist.string.strings in Resources */ = {isa = PBXBuildFile; fileRef = B989A05A1A90828300E2EE96 /* InfoPlist.string.strings */; };
 		B989A05B1A90828700E2EE96 /* InfoPlist.string.strings in Resources */ = {isa = PBXBuildFile; fileRef = B989A05A1A90828300E2EE96 /* InfoPlist.string.strings */; };
-		B989A0691A9085C500E2EE96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0681A9085C500E2EE96 /* Info.plist */; };
-		B989A06A1A9085C500E2EE96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0681A9085C500E2EE96 /* Info.plist */; };
-		B989A06B1A9085C500E2EE96 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0681A9085C500E2EE96 /* Info.plist */; };
+		B9B03F2D1A90EAAE00A0EE47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9B03F311A90EAAE00A0EE47 /* Info.plist */; };
+		B9B03F2E1A90EAAE00A0EE47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9B03F311A90EAAE00A0EE47 /* Info.plist */; };
+		B9B03F2F1A90EAAE00A0EE47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9B03F311A90EAAE00A0EE47 /* Info.plist */; };
+		B9B03F341A90F1A500A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0461A8F9A6400E2EE96 /* TestAppLaunchImage02-dev-Info.plist */; };
+		B9B03F351A90F1A700A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0461A8F9A6400E2EE96 /* TestAppLaunchImage02-dev-Info.plist */; };
+		B9B03F361A90F1A800A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B989A0461A8F9A6400E2EE96 /* TestAppLaunchImage02-dev-Info.plist */; };
+		B9B03F371A90F61900A0EE47 /* InfoPlist.string.strings in Resources */ = {isa = PBXBuildFile; fileRef = B989A05A1A90828300E2EE96 /* InfoPlist.string.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +52,16 @@
 		B989A02A1A8F974A00E2EE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B989A02B1A8F974A00E2EE96 /* TestAppLaunchImage02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppLaunchImage02Tests.swift; sourceTree = "<group>"; };
 		B989A0361A8F997B00E2EE96 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestAppLaunchImage02 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestAppLaunchImage02-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B989A0461A8F9A6400E2EE96 /* TestAppLaunchImage02-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestAppLaunchImage02-dev-Info.plist"; path = "/Users/matsuhisahironobu/Documents/works/iPhone/TestAppLaunchImage02/TestAppLaunchImage02-dev-Info.plist"; sourceTree = "<absolute>"; };
 		B989A0541A9081D800E2EE96 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		B989A0551A9081D900E2EE96 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B989A0591A90828300E2EE96 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.string.strings; sourceTree = "<group>"; };
 		B989A05C1A90829F00E2EE96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.string.strings; sourceTree = "<group>"; };
 		B989A05D1A90829F00E2EE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Base; path = Base.lproj/InfoPlist.string.strings; sourceTree = "<group>"; };
-		B989A0681A9085C500E2EE96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B03F301A90EAAE00A0EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		B9B03F321A90EAB200A0EE47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		B9B03F331A90EAB500A0EE47 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,7 @@
 			children = (
 				B989A0101A8F974A00E2EE96 /* TestAppLaunchImage02.app */,
 				B989A0251A8F974A00E2EE96 /* TestAppLaunchImage02Tests.xctest */,
-				B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02 copy.app */,
+				B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +126,7 @@
 		B989A0131A8F974A00E2EE96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B989A0681A9085C500E2EE96 /* Info.plist */,
+				B9B03F311A90EAAE00A0EE47 /* Info.plist */,
 				B989A05A1A90828300E2EE96 /* InfoPlist.string.strings */,
 			);
 			name = "Supporting Files";
@@ -203,7 +209,7 @@
 			);
 			name = "TestAppLaunchImage02-dev";
 			productName = TestAppLaunchImage02;
-			productReference = B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02 copy.app */;
+			productReference = B989A0451A8F9A6400E2EE96 /* TestAppLaunchImage02-dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -250,9 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B989A0511A90771D00E2EE96 /* Images.xcassets in Resources */,
+				B9B03F351A90F1A700A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */,
 				B989A0581A90828300E2EE96 /* InfoPlist.string.strings in Resources */,
 				B989A01B1A8F974A00E2EE96 /* Main.storyboard in Resources */,
-				B989A0691A9085C500E2EE96 /* Info.plist in Resources */,
+				B9B03F2D1A90EAAE00A0EE47 /* Info.plist in Resources */,
 				B989A0201A8F974A00E2EE96 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B989A06A1A9085C500E2EE96 /* Info.plist in Resources */,
+				B9B03F2E1A90EAAE00A0EE47 /* Info.plist in Resources */,
+				B9B03F371A90F61900A0EE47 /* InfoPlist.string.strings in Resources */,
+				B9B03F361A90F1A800A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B989A0521A9078AF00E2EE96 /* Images.xcassets in Resources */,
+				B9B03F341A90F1A500A0EE47 /* TestAppLaunchImage02-dev-Info.plist in Resources */,
 				B989A05B1A90828700E2EE96 /* InfoPlist.string.strings in Resources */,
 				B989A03F1A8F9A6400E2EE96 /* Main.storyboard in Resources */,
-				B989A06B1A9085C500E2EE96 /* Info.plist in Resources */,
+				B9B03F2F1A90EAAE00A0EE47 /* Info.plist in Resources */,
 				B989A0401A8F9A6400E2EE96 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +355,16 @@
 				B989A05D1A90829F00E2EE96 /* Base */,
 			);
 			name = InfoPlist.string.strings;
+			sourceTree = "<group>";
+		};
+		B9B03F311A90EAAE00A0EE47 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B03F301A90EAAE00A0EE47 /* Base */,
+				B9B03F321A90EAB200A0EE47 /* en */,
+				B9B03F331A90EAB500A0EE47 /* ja */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,7 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAppLaunchImage02/Info.plist;
+				INFOPLIST_FILE = TestAppLaunchImage02/Base.lproj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -445,7 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAppLaunchImage02/Info.plist;
+				INFOPLIST_FILE = TestAppLaunchImage02/Base.lproj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -492,7 +512,7 @@
 				INFOPLIST_FILE = "TestAppLaunchImage02-dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_NAME = "TestAppLaunchImage02 copy";
+				PRODUCT_NAME = "TestAppLaunchImage02-dev";
 			};
 			name = Debug;
 		};
@@ -502,7 +522,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				INFOPLIST_FILE = "TestAppLaunchImage02-dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "TestAppLaunchImage02 copy";
+				PRODUCT_NAME = "TestAppLaunchImage02-dev";
 			};
 			name = Release;
 		};
@@ -525,6 +545,7 @@
 				B989A0311A8F974A00E2EE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B989A0321A8F974A00E2EE96 /* Build configuration list for PBXNativeTarget "TestAppLaunchImage02Tests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +554,7 @@
 				B989A0341A8F974A00E2EE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B989A0421A8F9A6400E2EE96 /* Build configuration list for PBXNativeTarget "TestAppLaunchImage02-dev" */ = {
 			isa = XCConfigurationList;

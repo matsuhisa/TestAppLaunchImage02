@@ -1,10 +1,10 @@
-/* 
-  InfoPlist.string.strings
-  TestAppLaunchImage02
-
-  Created by 松久浩伸 on 2015/02/15.
-  Copyright (c) 2015年 matsuhisa.hironobu. All rights reserved.
-*/
+/*
+ InfoPlist.string.strings
+ TestAppLaunchImage02
+ */
 
 CFBundleDisplayName = "アプリ名";
+CFBundleName        = "アプリ名（CFBundleName）";
+NSHumanReadableCopyright = "test";
+
 
