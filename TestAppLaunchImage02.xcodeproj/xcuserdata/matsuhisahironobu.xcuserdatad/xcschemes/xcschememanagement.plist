@@ -4,8 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestAppLaunchImage02.xcscheme</key>
+		<key>TestAppLaunchImage02-dev.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TestAppLaunchImage02.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -18,6 +25,11 @@
 			<true/>
 		</dict>
 		<key>B989A0241A8F974A00E2EE96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B989A0381A8F9A6400E2EE96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
