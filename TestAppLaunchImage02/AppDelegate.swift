@@ -16,6 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let splitViewController = self.window!.rootViewController as ViewController
+        
+        let size = CGSize(width: splitViewController.view.frame.size.width, height: 50)
+        let postion:CGPoint  = CGPoint(x: 0, y: splitViewController.view.frame.size.height-50.0)
+        let view:UIView      = UIView(frame: CGRect(origin: postion, size: size))
+        
+
+#if DEBUG
+view.backgroundColor = UIColor(red: 255, green: 0.0, blue: 0.0, alpha: 0.5)
+#else
+view.backgroundColor = UIColor(red: 138, green: 138, blue:0, alpha: 1)
+#endif
+        
+
+        let devInfoLabel   = UILabel()
+        devInfoLabel.text  = "開発版：" + Constants().MESSEAGE
+        //devInfoLabel.textColor = UIColor(white: 1.0, alpha: 1.0)
+        devInfoLabel.font      = UIFont.systemFontOfSize(14)
+        devInfoLabel.frame     = CGRect(origin: CGPoint(x: 10, y: splitViewController.view.frame.size.height-50.0), size: size)
+
+        splitViewController.view.addSubview(view)
+        splitViewController.view.addSubview(devInfoLabel)
+        
+
         return true
     }
 
